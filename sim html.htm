@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>SIM Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gestione SIM</h1>
+
+    <form id="sim-form">
+        <input type="text" id="carrier" placeholder="Operatore (es. TIM)" required>
+        <input type="text" id="number" placeholder="Numero SIM" required>
+        <input type="number" id="credit" placeholder="Credito iniziale (€)" required>
+        <button type="submit">Aggiungi SIM</button>
+    </form>
+
+    <h2>Le tue SIM</h2>
+    <div id="sim-list"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
